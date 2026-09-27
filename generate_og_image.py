@@ -9,9 +9,9 @@ yangilab, qayta ishga tushiring:  python3 generate_og_image.py
 
 from PIL import Image, ImageDraw, ImageFont
 
-GROOM_NAME = "Aziz"
-BRIDE_NAME = "Malika"
-DATE_TEXT = "12-sentabr, 2026-yil"
+GROOM_NAME = "Boburbek"
+BRIDE_NAME = "Charosxon"
+DATE_TEXT = "1-oktyabr, 2026-yil"
 EYEBROW_TEXT = "TO'Y TAKLIFNOMASI"
 
 WIDTH, HEIGHT = 1200, 630
@@ -68,8 +68,8 @@ def main():
         outline=GOLD, width=2
     )
 
-    georgia = "/System/Library/Fonts/Supplemental/Georgia.ttf"
-    didot = "/System/Library/Fonts/Supplemental/Didot.ttc"
+    georgia = "C:\\Windows\\Fonts\\Georgia.ttf"
+    didot = "GFSDidot.ttf"
 
     eyebrow_font = font(georgia, 24)
     names_font = font(didot, 96)
