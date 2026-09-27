@@ -22,10 +22,10 @@ window.weddingConfig = {
   displayWeekday: "Payshanba",
 
   /* ---------- TAKLIF MATNI ---------- */
-  inviteTitle: "Bizning to‘yimizga",
-  inviteSubtitle: "Marhamat qilib tashrif buyurishingizni so‘raymiz",
+  inviteTitle: "",
+  inviteSubtitle: "Oilamiz sizni ushbu unutilmas oqshomga taklif qiladi. Baxtli kunimizga tashrif buyurib quvonchimizga sherik bo‘ling.",
   welcomeMessage:
-    "Oilamiz sizni ushbu unutilmas oqshomga taklif qiladi. Baxtli kunimizga tashrif buyurib quvonchimizga sherik bo‘ling.",
+    "",
   parentsMessage: "",
 
   /* ---------- TO'YXONA / MANZIL ---------- */
