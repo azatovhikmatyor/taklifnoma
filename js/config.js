@@ -22,15 +22,15 @@ window.weddingConfig = {
   displayWeekday: "Payshanba",
 
   /* ---------- TAKLIF MATNI ---------- */
-  inviteTitle: "Bizning to'yimizga",
-  inviteSubtitle: "Marhamat qilib tashrif buyurishingizni so'raymiz",
+  inviteTitle: "Bizning to‘yimizga",
+  inviteSubtitle: "Marhamat qilib tashrif buyurishingizni so‘raymiz",
   welcomeMessage:
-    "Hayotimizning eng baxtli kunida yonimizda bo'lishingizni, quvonchimizga sherik bo'lishingizni astoyidil xohlaymiz.",
+    "Oilamiz sizni ushbu unutilmas oqshomga taklif qiladi. Baxtli kunimizga tashrif buyurib quvonchimizga sherik bo‘ling.",
   parentsMessage: "",
 
   /* ---------- TO'YXONA / MANZIL ---------- */
-  venueName: "\"MarMar Saroy\" to'yxonasi",
-  venueAddress: "Xorazm viloyati, Xiva shahri, Xiva krug (aylanma yo'li) hududi",
+  venueName: "\"Marmarsaroy\" to‘yxonasi",
+  venueAddress: "Xorazm viloyati, Xiva shahri, Xiva krug (aylanma yo‘li) hududi",
 
   /* Google Xarita manzili qanday olinadi:
      1) Google Maps'da joyni toping -> "Share" -> "Embed a map" -> HTML kodidan
