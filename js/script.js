@@ -42,18 +42,6 @@
   const directionsBtn = document.getElementById("directionsBtn");
   if (directionsBtn && cfg.mapDirectionsUrl) directionsBtn.href = cfg.mapDirectionsUrl;
 
-  /* ---------- Gallery ---------- */
-  const galleryGrid = document.getElementById("galleryGrid");
-  const gallery = Array.isArray(cfg.gallery) ? cfg.gallery : [];
-  if (galleryGrid) {
-    gallery.forEach((src, i) => {
-      const img = document.createElement("img");
-      img.src = src;
-      img.alt = `Rasm ${i + 1}`;
-      img.dataset.index = i;
-      galleryGrid.appendChild(img);
-    });
-  }
 
   /* ---------- Lightbox ---------- */
   const lightbox = document.getElementById("lightbox");
@@ -72,11 +60,7 @@
     lightboxImg.src = gallery[currentIndex];
   }
 
-  if (galleryGrid) {
-    galleryGrid.addEventListener("click", (e) => {
-      if (e.target.tagName === "IMG") openLightbox(Number(e.target.dataset.index));
-    });
-  }
+
   document.getElementById("lightboxClose")?.addEventListener("click", closeLightbox);
   document.getElementById("lightboxPrev")?.addEventListener("click", () => showRelative(-1));
   document.getElementById("lightboxNext")?.addEventListener("click", () => showRelative(1));
